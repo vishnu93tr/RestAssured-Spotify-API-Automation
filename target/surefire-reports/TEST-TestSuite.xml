@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.181" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/test-classes:/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/classes:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/vishnu.vardhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnu.vardhan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnu.vardhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/vishnu.vardhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vishnu.vardhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnu.vardhan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnu.vardhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnu.vardhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnu.vardhan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnu.vardhan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnu.vardhan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnu.vardhan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-sync/4.0.5/mongodb-driver-sync-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/bson/4.0.5/bson-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-core/4.0.5/mongodb-driver-core-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.0/log4j-api-2.9.0.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-testng/2.13.9/allure-testng-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/vishnu.vardhan/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-test-filter/2.13.9/allure-test-filter-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.9/allure-rest-assured-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-attachments/2.13.9/allure-attachments-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/vishnu.vardhan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnu.vardhan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnu.vardhan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire/surefirebooter7622597452578057569.jar /Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire 2021-04-28T13-40-48_129-jvmRun1 surefire2573802472742552861tmp surefire_01451587316497773236tmp"/>
+    <property name="surefire.test.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/test-classes:/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/classes:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/vishnu.vardhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnu.vardhan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnu.vardhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/vishnu.vardhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vishnu.vardhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnu.vardhan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnu.vardhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnu.vardhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnu.vardhan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnu.vardhan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnu.vardhan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnu.vardhan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-sync/4.0.5/mongodb-driver-sync-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/bson/4.0.5/bson-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-core/4.0.5/mongodb-driver-core-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.0/log4j-api-2.9.0.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-testng/2.13.9/allure-testng-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/vishnu.vardhan/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-test-filter/2.13.9/allure-test-filter-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.9/allure-rest-assured-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-attachments/2.13.9/allure-attachments-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/vishnu.vardhan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnu.vardhan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnu.vardhan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vishnu.vardhan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire/surefirebooter7622597452578057569.jar:/Users/vishnu.vardhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
+    <property name="BASE_URI" value="https://api.spotify.com"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="vishnu.vardhan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/vishnu.vardhan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/t_/qm5w4ckx14z559xvzn1kfl619_yhqh/T/"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/vishnu.vardhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="/Users/vishnu.vardhan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="invalid_access_token" classname="com.spotify.oauth2.tests.PlayListTests" time="2.73">
+    <system-out><![CDATA[13:40:50.998 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=restassuredcluster.yiuty.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-13zbko-shard-0'}
+13:40:51.074 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+13:40:51.080 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017 to client view of cluster
+13:40:51.131 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017 to client view of cluster
+13:40:51.132 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017 to client view of cluster
+13:40:51.133 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+13:40:51.137 [main] INFO org.mongodb.driver.cluster - No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@319c3a25 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+13:40:52.751 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:88324}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:52.751 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:79723}] to restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+13:40:52.752 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:52.752 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+13:40:52.789 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 5 to database admin on connection [connectionId{localValue:2, serverValue:88324}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:52.789 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 4 to database admin on connection [connectionId{localValue:3, serverValue:79723}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+13:40:53.069 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 5 completed successfully in 308.81 ms on connection [connectionId{localValue:2, serverValue:88324}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:53.072 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 4 completed successfully in 313.77 ms on connection [connectionId{localValue:3, serverValue:79723}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+13:40:53.075 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=320919470, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 13:40:52 IST 2021, lastUpdateTimeNanos=40643839660299}
+13:40:53.075 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=317104305, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000004, setVersion=1, lastWriteDate=Wed Apr 28 13:40:52 IST 2021, lastUpdateTimeNanos=40643836692125}
+13:40:53.078 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max election id to 7fffffff0000000000000004 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:53.078 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max set version to 1 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:53.078 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Discovered replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:53.079 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=317.1 ms, state=CONNECTED}]
+13:40:53.079 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=320.9 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=317.1 ms, state=CONNECTED}]
+13:40:55.327 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:88326}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:55.348 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"find": "ConfigProperties", "filter": {"grant_type": "refresh_token"}, "limit": 1, "singleBatch": true, "$db": "RestAssured", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619597452, "i": 10}}, "signature": {"hash": {"$binary": {"base64": "39vt2Tt/kXCaGRlpaGrCipq0TKQ=", "subType": "00"}}, "keyId": 6955062343113900036}}, "lsid": {"id": {"$binary": {"base64": "c4zUcH6KTZSTZQAsbLfzAg==", "subType": "04"}}}}' with request id 10 to database RestAssured on connection [connectionId{localValue:4, serverValue:88326}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:55.737 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 10 completed successfully in 389.66 ms on connection [connectionId{localValue:4, serverValue:88326}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+connected to Data Base
+Renewing token
+13:40:55.945 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=restassuredcluster.yiuty.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-13zbko-shard-0'}
+13:40:55.945 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+13:40:55.970 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017 to client view of cluster
+13:40:55.971 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017 to client view of cluster
+13:40:55.972 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017 to client view of cluster
+13:40:55.973 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+13:40:55.973 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@5b80b5ad from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+13:40:57.171 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:79989}] to restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.171 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:88300}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:57.171 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:79723}] to restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+13:40:57.171 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.171 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:57.171 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+13:40:57.172 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 15 to database admin on connection [connectionId{localValue:7, serverValue:88300}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:57.172 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 14 to database admin on connection [connectionId{localValue:5, serverValue:79989}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.172 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 16 to database admin on connection [connectionId{localValue:6, serverValue:79723}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description qf#v&x>h&LkP3##UYl###J4#&g,F##8HCC.rc#&6K#.#&##_&#",
+    "name": "PlayList i1shnGC?-=",
+    "public": true
+}
+13:40:57.476 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 15 completed successfully in 304.47 ms on connection [connectionId{localValue:7, serverValue:88300}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:57.476 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 14 completed successfully in 304.50 ms on connection [connectionId{localValue:5, serverValue:79989}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.477 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=305416395, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000004, setVersion=1, lastWriteDate=Wed Apr 28 13:40:56 IST 2021, lastUpdateTimeNanos=40648243129315}
+13:40:57.477 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=305566235, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 13:40:56 IST 2021, lastUpdateTimeNanos=40648243179662}
+13:40:57.478 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max election id to 7fffffff0000000000000004 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:57.478 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max set version to 1 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:57.478 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Discovered replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:57.478 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=305.4 ms, state=CONNECTED}]
+13:40:57.479 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=305.6 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=305.4 ms, state=CONNECTED}]
+13:40:57.514 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:79989}] to restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.514 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.515 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619597455, "i": 2}}, "signature": {"hash": {"$binary": {"base64": "i6gfWRBJBP6P9MRw6AECwXx/hUc=", "subType": "00"}}, "keyId": 6955062343113900036}}}' with request id 17 to database admin on connection [connectionId{localValue:1, serverValue:79989}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.801 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 17 completed successfully in 286.28 ms on connection [connectionId{localValue:1, serverValue:79989}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+13:40:57.801 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=287280164, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 13:40:57 IST 2021, lastUpdateTimeNanos=40648567458651}
+13:40:57.802 [cluster-ClusterId{value='6089188ab9d4b66dbb6f5155', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=287.3 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=320.9 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=317.1 ms, state=CONNECTED}]
+13:40:58.085 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 16 completed successfully in 912.48 ms on connection [connectionId{localValue:6, serverValue:79723}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+13:40:58.085 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=913445440, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 13:40:56 IST 2021, lastUpdateTimeNanos=40648851253192}
+13:40:58.086 [cluster-ClusterId{value='6089188fb9d4b66dbb6f5156', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=305.6 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=913.4 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=305.4 ms, state=CONNECTED}]
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 28 Apr 2021 08:10:58 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "Invalid access token"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="not_create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.454">
+    <system-out><![CDATA[13:40:59.730 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:88231}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:40:59.732 [TestNG-test=API automation-Spotify-2] DEBUG org.mongodb.driver.protocol.command - Sending command '{"find": "ConfigProperties", "filter": {"grant_type": "refresh_token"}, "limit": 1, "singleBatch": true, "$db": "RestAssured", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619597456, "i": 10}}, "signature": {"hash": {"$binary": {"base64": "B2KerE2ohJ3uEvbHDIH0taN9h5s=", "subType": "00"}}, "keyId": 6955062343113900036}}, "lsid": {"id": {"$binary": {"base64": "XyAu3rpoQp29u/mctIgIFg==", "subType": "04"}}}}' with request id 22 to database RestAssured on connection [connectionId{localValue:8, serverValue:88231}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+13:41:00.037 [TestNG-test=API automation-Spotify-2] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 22 completed successfully in 306.32 ms on connection [connectionId{localValue:8, serverValue:88231}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+connected to Data Base
+HTTP/1.1 200 OK
+date: Wed, 28 Apr 2021 08:11:00 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQCK3OwoQQlgUciTdGwfvv-uWWr7mQEjdpT981-wngctBp31OiKntrWYcqdkNkB9VOqtjPWklASuxkAUO6T6oKIxb6WFp9Brdm4;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+sp-trace-id: 55baafe7ff26035f
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQDX5zJk8Fwl7w3apTTQxivIb1xHJnpIvLCLI8kCtwqWGzYEPWduHUSOETLkf-tjYC8JK11DBcP6jlcWGthNJc6I1jKkrud3WPCPqTHIMlct_5_9U8zXs8nofvKFFsqk0Ojz3cTH_TyTIukfl3m3UgcNwF1_4QEKzk7jaz9R5KoczUgF0dtmHyu82lHqL-Lc6vMVwbN08pfoGXbo6okeGsV0m2spzotzK37y1HB-PnRf",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+token is good to go
+token is good to go
+token is good to go
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/49fE1KUZ5AnhMadPgoTBL1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description #7##fz/Qf#z:/&T&##&>#&#2t#L<-ku#&R&&&<,&#&pk0###X#",
+    "name": "PlayList JyA>Nl_cfY",
+    "public": true
+}
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/49fE1KUZ5AnhMadPgoTBL1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description El#&1&#&wuez0#&?&&zmK&&&&<&bw&#bx#j#&3#&##vk&r10##",
+    "name": "PlayList J[^D<thvYu",
+    "public": true
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description #n&#&b&1#&#x&D&DIi@#j##&#y#dO#&&##=#d&#fuMorY&&rl&",
+    "name": "",
+    "public": true
+}
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 28 Apr 2021 08:11:00 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="get_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.515">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-IjY2ZmFkNjU1YmEyOWRjZWZlMDk0ZDlmMjE2NzYwODJkIg=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 28 Apr 2021 08:11:01 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Description &gt;r[#&amp;rG##Se&amp;yb&amp;&amp;&amp;?&amp;_]&amp;Y&amp;&amp;&amp;&amp;#F-Y#j&amp;##?&amp;4&amp;2T&amp;#K2##Dk",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/49fE1KUZ5AnhMadPgoTBL1"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/49fE1KUZ5AnhMadPgoTBL1",
+    "id": "49fE1KUZ5AnhMadPgoTBL1",
+    "images": [
+        
+    ],
+    "name": "PlayList t3i6si_bnu",
+    "owner": {
+        "display_name": "vishnu1993",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/e41y8ev2wvl4jlfee11ohbet8"
+        },
+        "href": "https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8",
+        "id": "e41y8ev2wvl4jlfee11ohbet8",
+        "type": "user",
+        "uri": "spotify:user:e41y8ev2wvl4jlfee11ohbet8"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NDMsZTE4ZDNiYzNmNjU3ZjA1NDVmYzJhYmNjMzBkZjM5MTQ3MmM3MzJhYg==",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/49fE1KUZ5AnhMadPgoTBL1/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:49fE1KUZ5AnhMadPgoTBL1"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.579">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/0UFLrj5TjLrmNcC3wetkHf
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 28 Apr 2021 08:11:01 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Description #7##fz/Qf#z:/&T&##&>#&#2t#L<-ku#&R&&&<,&#&pk0###X#",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0UFLrj5TjLrmNcC3wetkHf"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/0UFLrj5TjLrmNcC3wetkHf",
+    "id": "0UFLrj5TjLrmNcC3wetkHf",
+    "images": [
+        
+    ],
+    "name": "PlayList JyA>Nl_cfY",
+    "owner": {
+        "display_name": "vishnu1993",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/e41y8ev2wvl4jlfee11ohbet8"
+        },
+        "href": "https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8",
+        "id": "e41y8ev2wvl4jlfee11ohbet8",
+        "type": "user",
+        "uri": "spotify:user:e41y8ev2wvl4jlfee11ohbet8"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MSxlNmZiYTY5NWE5YjI5NDRmNTM1MmJlODZiNmM3M2Q3ODFjMTM5NDI2",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0UFLrj5TjLrmNcC3wetkHf/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0UFLrj5TjLrmNcC3wetkHf"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="update_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.584">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 28 Apr 2021 08:11:01 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+]]></system-out>
+  </testcase>
+</testsuite>

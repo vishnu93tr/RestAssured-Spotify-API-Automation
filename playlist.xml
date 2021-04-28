@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"  name="API automation-Spotify" parallel="methods" thread-count="10">
+    <classes>
+        <class name="com.spotify.oauth2.tests.PlayListTests">
+            <methods>
+                <include name="create_playlist"/>
+                <include name="get_playlist"/>
+                <include name="update_playlist"/>
+                <include name="not_create_playlist"/>
+                <include name="invalid_access_token"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
