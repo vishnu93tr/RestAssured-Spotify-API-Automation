@@ -15,7 +15,9 @@ pipeline {
             }
         stage('Build Project and Run tests') {
             steps {
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
                 sh "mvn clean test -DBASE_URI='https://api.spotify.com'"
+                }
             }
         }
         stage('Generate Allure Reports') {
