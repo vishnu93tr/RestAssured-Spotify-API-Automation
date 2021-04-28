@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.11" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.938" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire/surefirebooter804007755987054912.jar /Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire 2021-04-28T14-23-24_339-jvmRun1 surefire8035416936330271594tmp surefire_0193400905243892139tmp"/>
+    <property name="sun.java.command" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire/surefirebooter1057025411992151843.jar /Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire 2021-04-28T19-09-53_883-jvmRun1 surefire4308652790124326217tmp surefire_06388081299194475143tmp"/>
     <property name="surefire.test.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/test-classes:/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/classes:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/vishnu.vardhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnu.vardhan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnu.vardhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/vishnu.vardhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vishnu.vardhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnu.vardhan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnu.vardhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnu.vardhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnu.vardhan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnu.vardhan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnu.vardhan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnu.vardhan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-sync/4.0.5/mongodb-driver-sync-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/bson/4.0.5/bson-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-core/4.0.5/mongodb-driver-core-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.0/log4j-api-2.9.0.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-testng/2.13.9/allure-testng-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/vishnu.vardhan/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-test-filter/2.13.9/allure-test-filter-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.9/allure-rest-assured-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-attachments/2.13.9/allure-attachments-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/vishnu.vardhan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnu.vardhan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnu.vardhan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/vishnu.vardhan"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire/surefirebooter804007755987054912.jar:/Users/vishnu.vardhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="surefire.real.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIAutomation/target/surefire/surefirebooter1057025411992151843.jar:/Users/vishnu.vardhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
     <property name="BASE_URI" value="https://api.spotify.com"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -59,69 +59,68 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="invalid_access_token" classname="com.spotify.oauth2.tests.PlayListTests" time="2.992">
-    <system-out><![CDATA[14:23:27.219 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=restassuredcluster.yiuty.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-13zbko-shard-0'}
-14:23:27.265 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017 to client view of cluster
-14:23:27.304 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-14:23:27.324 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017 to client view of cluster
-14:23:27.325 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017 to client view of cluster
-14:23:27.326 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
-14:23:27.331 [main] INFO org.mongodb.driver.cluster - No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@66c38e51 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
-14:23:28.854 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:81048}] to restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:28.854 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:80745}] to restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:28.854 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:89478}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:28.854 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:28.855 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:28.855 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:28.893 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 6 to database admin on connection [connectionId{localValue:3, serverValue:80745}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:28.893 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 5 to database admin on connection [connectionId{localValue:1, serverValue:81048}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:28.893 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 4 to database admin on connection [connectionId{localValue:2, serverValue:89478}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:29.154 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 4 completed successfully in 290.90 ms on connection [connectionId{localValue:2, serverValue:89478}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:29.155 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 6 completed successfully in 294.55 ms on connection [connectionId{localValue:3, serverValue:80745}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:29.155 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 5 completed successfully in 294.62 ms on connection [connectionId{localValue:1, serverValue:81048}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:29.161 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=301282073, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 14:23:28 IST 2021, lastUpdateTimeNanos=43200000357261}
-14:23:29.161 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=300703602, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 14:23:28 IST 2021, lastUpdateTimeNanos=43200000117686}
-14:23:29.161 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=300029431, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000004, setVersion=1, lastWriteDate=Wed Apr 28 14:23:28 IST 2021, lastUpdateTimeNanos=43200000117719}
-14:23:29.166 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max election id to 7fffffff0000000000000004 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:29.166 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max set version to 1 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:29.166 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Discovered replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:29.167 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=300.0 ms, state=CONNECTED}]
-14:23:29.167 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=300.7 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=300.0 ms, state=CONNECTED}]
-14:23:29.168 [cluster-ClusterId{value='6089228725527c1167f94439', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=301.3 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=300.7 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=300.0 ms, state=CONNECTED}]
-14:23:31.058 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:89477}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:31.077 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"find": "ConfigProperties", "filter": {"grant_type": "refresh_token"}, "limit": 1, "singleBatch": true, "$db": "RestAssured", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619600008, "i": 10}}, "signature": {"hash": {"$binary": {"base64": "SILG7SDgXFli3JP7mCub/l1vJG8=", "subType": "00"}}, "keyId": 6955062343113900036}}, "lsid": {"id": {"$binary": {"base64": "KzOUPR3zSbmH8za9ZUkNqA==", "subType": "04"}}}}' with request id 11 to database RestAssured on connection [connectionId{localValue:4, serverValue:89477}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:31.336 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 11 completed successfully in 260.57 ms on connection [connectionId{localValue:4, serverValue:89477}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+  <testcase name="invalid_access_token" classname="com.spotify.oauth2.tests.PlayListTests" time="2.71">
+    <system-out><![CDATA[19:09:56.514 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=restassuredcluster.yiuty.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-13zbko-shard-0'}
+19:09:56.579 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+19:09:56.603 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017 to client view of cluster
+19:09:56.645 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017 to client view of cluster
+19:09:56.646 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017 to client view of cluster
+19:09:56.648 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+19:09:56.652 [main] INFO org.mongodb.driver.cluster - No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@77eb5790 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+19:09:59.406 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:97715}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:09:59.406 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:87913}] to restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:09:59.406 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:88207}] to restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:09:59.406 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:09:59.406 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:09:59.407 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:09:59.442 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 4 to database admin on connection [connectionId{localValue:3, serverValue:87913}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:09:59.442 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 5 to database admin on connection [connectionId{localValue:1, serverValue:88207}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:09:59.442 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 6 to database admin on connection [connectionId{localValue:2, serverValue:97715}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:09:59.793 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 5 completed successfully in 378.03 ms on connection [connectionId{localValue:1, serverValue:88207}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:09:59.793 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 4 completed successfully in 377.95 ms on connection [connectionId{localValue:3, serverValue:87913}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:09:59.793 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 6 completed successfully in 378.53 ms on connection [connectionId{localValue:2, serverValue:97715}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:09:59.800 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=387496624, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 19:09:59 IST 2021, lastUpdateTimeNanos=59166277653504}
+19:09:59.800 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=387657628, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000004, setVersion=1, lastWriteDate=Wed Apr 28 19:09:59 IST 2021, lastUpdateTimeNanos=59166277653544}
+19:09:59.800 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=387337409, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 19:09:59 IST 2021, lastUpdateTimeNanos=59166277653588}
+19:09:59.803 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=387.3 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+19:09:59.803 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=387.3 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=387.5 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+19:09:59.804 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max election id to 7fffffff0000000000000004 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:09:59.804 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max set version to 1 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:09:59.804 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Discovered replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:09:59.805 [cluster-ClusterId{value='608965ace64c0b706c3757ee', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=387.3 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=387.5 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=387.7 ms, state=CONNECTED}]
+19:10:01.994 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:97611}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:02.014 [main] DEBUG org.mongodb.driver.protocol.command - Sending command '{"find": "ConfigProperties", "filter": {"grant_type": "refresh_token"}, "limit": 1, "singleBatch": true, "$db": "RestAssured", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619617199, "i": 5}}, "signature": {"hash": {"$binary": {"base64": "g/m1EUe53fo5ht5brJ9LJXCjah0=", "subType": "00"}}, "keyId": 6955062343113900036}}, "lsid": {"id": {"$binary": {"base64": "xLINGPS6R2OPiXQP5YWEfg==", "subType": "04"}}}}' with request id 11 to database RestAssured on connection [connectionId{localValue:4, serverValue:97611}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:02.348 [main] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 11 completed successfully in 335.04 ms on connection [connectionId{localValue:4, serverValue:97611}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
 connected to Data Base
 Renewing token
-14:23:31.574 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=restassuredcluster.yiuty.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-13zbko-shard-0'}
-14:23:31.575 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
-14:23:31.615 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017 to client view of cluster
-14:23:31.616 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017 to client view of cluster
-14:23:31.616 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017 to client view of cluster
-14:23:31.617 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
-14:23:31.618 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@1f01e1ca from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
-14:23:32.667 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:81048}] to restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:32.667 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:32.668 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 15 to database admin on connection [connectionId{localValue:5, serverValue:81048}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:32.669 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:80745}] to restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:32.669 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:89428}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:32.669 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:32.670 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:32.670 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 17 to database admin on connection [connectionId{localValue:7, serverValue:89428}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:32.670 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 16 to database admin on connection [connectionId{localValue:6, serverValue:80745}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:32.925 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 15 completed successfully in 257.61 ms on connection [connectionId{localValue:5, serverValue:81048}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:32.926 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=258374582, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 14:23:32 IST 2021, lastUpdateTimeNanos=43203769869482}
-14:23:32.927 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.4 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
-14:23:32.927 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=258374582, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 14:23:32 IST 2021, lastUpdateTimeNanos=43203769869482}, ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
-14:23:32.928 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 17 completed successfully in 257.84 ms on connection [connectionId{localValue:7, serverValue:89428}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:32.928 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 16 completed successfully in 257.89 ms on connection [connectionId{localValue:6, serverValue:80745}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
-14:23:32.928 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=258421562, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000004, setVersion=1, lastWriteDate=Wed Apr 28 14:23:32 IST 2021, lastUpdateTimeNanos=43203772409820}
-14:23:32.929 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=258868831, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 14:23:32 IST 2021, lastUpdateTimeNanos=43203772590681}
-14:23:32.929 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max election id to 7fffffff0000000000000004 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:32.929 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max set version to 1 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:32.929 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Discovered replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:32.929 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.4 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.4 ms, state=CONNECTED}]
-14:23:32.930 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.4 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.9 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.4 ms, state=CONNECTED}]
+19:10:02.576 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=restassuredcluster.yiuty.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-13zbko-shard-0'}
+19:10:02.577 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+19:10:02.607 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017 to client view of cluster
+19:10:02.608 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017 to client view of cluster
+19:10:02.608 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] INFO org.mongodb.driver.cluster - Adding discovered server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017 to client view of cluster
+19:10:02.609 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-srv-restassuredcluster.yiuty.mongodb.net] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+19:10:02.610 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.cluster - No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@630a7023 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+19:10:03.696 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:97715}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:03.696 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:03.697 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 15 to database admin on connection [connectionId{localValue:7, serverValue:97715}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:03.698 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:88211}] to restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:10:03.698 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:10:03.699 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 16 to database admin on connection [connectionId{localValue:5, serverValue:88211}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:10:03.703 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:87928}] to restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:10:03.704 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:10:03.704 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin"}' with request id 17 to database admin on connection [connectionId{localValue:6, serverValue:87928}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:10:03.955 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 15 completed successfully in 258.45 ms on connection [connectionId{localValue:7, serverValue:97715}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:03.956 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=259461242, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000004, setVersion=1, lastWriteDate=Wed Apr 28 19:10:03 IST 2021, lastUpdateTimeNanos=59170437626618}
+19:10:03.956 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max election id to 7fffffff0000000000000004 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:03.957 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Setting max set version to 1 from replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:03.957 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Discovered replica set primary restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:03.957 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-01.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=259.5 ms, state=CONNECTED}]
+19:10:03.958 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 16 completed successfully in 259.72 ms on connection [connectionId{localValue:5, serverValue:88211}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
+19:10:03.959 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=260587743, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 19:10:03 IST 2021, lastUpdateTimeNanos=59170440905501}
+19:10:03.959 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=260.6 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=259.5 ms, state=CONNECTED}]
+19:10:03.966 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 17 completed successfully in 262.03 ms on connection [connectionId{localValue:6, serverValue:87928}] to server restassuredcluster-shard-00-02.yiuty.mongodb.net:27017
+19:10:03.967 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=262711052, setName='atlas-13zbko-shard-0', canonicalAddress=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, hosts=[restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, restassuredcluster-shard-00-01.yiuty.mongodb.net:27017], passives=[], arbiters=[], primary='restassuredcluster-shard-00-01.yiuty.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Apr 28 19:10:03 IST 2021, lastUpdateTimeNanos=59170448508009}
+19:10:03.967 [cluster-ClusterId{value='608965b2e64c0b706c3757ef', description='null'}-restassuredcluster-shard-00-02.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=260.6 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=262.7 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=259.5 ms, state=CONNECTED}]
 Request method:	POST
 Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
 Proxy:			<none>
@@ -135,14 +134,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description p&&&&d1&.?Bgxt&qMe/e0&&V#r&QyG#nz&_dJ9N#rt#,3&-R&z",
-    "name": "PlayList w128[@VW=_",
+    "description": "Description k##&.&<genWf#;##bo&&p&Xw@#4&#5#N&1q##eZ&#&##;H#zK&",
+    "name": "PlayList TJTcjbn>aK",
     "public": true
 }
-14:23:33.427 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Checking status of restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:33.429 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Sending command '{"ismaster": 1, "$db": "admin", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619600012, "i": 6}}, "signature": {"hash": {"$binary": {"base64": "rtZ5HzQv85AiPKyH7rF7cTeDpbI=", "subType": "00"}}, "keyId": 6955062343113900036}}}' with request id 19 to database admin on connection [connectionId{localValue:5, serverValue:81048}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:33.687 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 19 completed successfully in 258.72 ms on connection [connectionId{localValue:5, serverValue:81048}] to server restassuredcluster-shard-00-00.yiuty.mongodb.net:27017
-14:23:33.688 [cluster-ClusterId{value='6089228b25527c1167f9443a', description='null'}-restassuredcluster-shard-00-00.yiuty.mongodb.net:27017] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=restassuredcluster-shard-00-00.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.6 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-02.yiuty.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.9 ms, state=CONNECTED}, {address=restassuredcluster-shard-00-01.yiuty.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=258.4 ms, state=CONNECTED}]
 HTTP/1.1 401 Unauthorized
 www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
 access-control-allow-origin: *
@@ -154,7 +149,7 @@ content-type: application/json
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 28 Apr 2021 08:53:33 GMT
+date: Wed, 28 Apr 2021 13:40:04 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -168,17 +163,17 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="not_create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="4.878">
-    <system-out><![CDATA[14:23:34.759 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:89428}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:34.760 [TestNG-test=API automation-Spotify-2] DEBUG org.mongodb.driver.protocol.command - Sending command '{"find": "ConfigProperties", "filter": {"grant_type": "refresh_token"}, "limit": 1, "singleBatch": true, "$db": "RestAssured", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619600013, "i": 6}}, "signature": {"hash": {"$binary": {"base64": "MKFKGWvtZklUtePX7jsf72Ol5wk=", "subType": "00"}}, "keyId": 6955062343113900036}}, "lsid": {"id": {"$binary": {"base64": "u9KfWZhFQEiMx6E80O2O6g==", "subType": "04"}}}}' with request id 23 to database RestAssured on connection [connectionId{localValue:8, serverValue:89428}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
-14:23:35.020 [TestNG-test=API automation-Spotify-2] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 23 completed successfully in 260.00 ms on connection [connectionId{localValue:8, serverValue:89428}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+  <testcase name="not_create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.212">
+    <system-out><![CDATA[19:10:05.987 [TestNG-test=API automation-Spotify-2] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:97679}] to restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:05.989 [TestNG-test=API automation-Spotify-2] DEBUG org.mongodb.driver.protocol.command - Sending command '{"find": "ConfigProperties", "filter": {"grant_type": "refresh_token"}, "limit": 1, "singleBatch": true, "$db": "RestAssured", "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1619617203, "i": 6}}, "signature": {"hash": {"$binary": {"base64": "g6/L9gtWto8f9jycXqpVdTL0B3E=", "subType": "00"}}, "keyId": 6955062343113900036}}, "lsid": {"id": {"$binary": {"base64": "pQ/uGR7RS8euWuwfRifCjA==", "subType": "04"}}}}' with request id 22 to database RestAssured on connection [connectionId{localValue:8, serverValue:97679}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
+19:10:06.341 [TestNG-test=API automation-Spotify-2] DEBUG org.mongodb.driver.protocol.command - Execution of command with request id 22 completed successfully in 353.24 ms on connection [connectionId{localValue:8, serverValue:97679}] to server restassuredcluster-shard-00-01.yiuty.mongodb.net:27017
 connected to Data Base
 HTTP/1.1 200 OK
-date: Wed, 28 Apr 2021 08:53:35 GMT
+date: Wed, 28 Apr 2021 13:40:06 GMT
 content-type: application/json
 vary: Accept-Encoding
-set-cookie: __Host-device_id=AQCvWMSmxgpCXQaBP_8Cs2tV9b2hWdPsQU7lYCasNScEvRC_QpveKBhS7O6eIYtCRLSBnHwx4DxRpXKUYP78T0_s8ZK79T1_LNA;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
-sp-trace-id: ef70b98c884d385c
+set-cookie: __Host-device_id=AQA2r9nKRhTf6NbelQBhiA8l3HXfak1sHhY0OgibuXoiMgKcFUeukTmeVpEa023RHTQk17hfuS47uRFF4XBjZJFIlD0PO2U5TEk;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+sp-trace-id: 46a0916aa40b6938
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
@@ -188,7 +183,7 @@ Alt-Svc: clear
 Transfer-Encoding: chunked
 
 {
-    "access_token": "BQBdvfRdxeXGZYzPq0mtgA49xXeHFrI3VmSf6TODS22uhAOGwbfaRRvVXr7dQJPqo_i5TFlZ2wmE71LV_c0lp2R0ep8Gdapd9ocIC1zN7NP1neZN57md1Lo65dsP6_tx2eROkqiJgofTacBXzug0s1adk00M_gPUueqTtCAIk6tCou0rLeM3SWbBsFcmbxHxSQuk10acT6oP-A4hoKCMVAOSGpHG1u88qN5WbJtyVWNV",
+    "access_token": "BQCs-hEv4RkjOIn1Mwe2q2v_ADeh9hOVQG1dCV5fvLKig7iDjztFnRELZFTOrhYA83ocJ-HDRK_dosylz-SPK0IaNqOWcM4yVqz1DHJQ5d-wBx4Dciy2oNcbjq9-1RnMpLpNRKHpuhaFQCFUftBEgxxQT5nr9cWHRRP-C3aEr1Rl4C63LbWIt_ZI4dfOZGCoa6nTISTbYST11nOdHVNbzAoBd4QLcwuyt2e3J-j6UFZs",
     "token_type": "Bearer",
     "expires_in": 3600,
     "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
@@ -208,23 +203,6 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description #&&##&&&#h&8&RItn&n#^6_j###&##&&##&a#&khr&&&&.&Dc#",
-    "name": "",
-    "public": true
-}
 Request method:	PUT
 Request URI:	https://api.spotify.com/v1/playlists/49fE1KUZ5AnhMadPgoTBL1
 Proxy:			<none>
@@ -238,8 +216,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description 7&&P#&vs&nV&#&#q#PVRse&##&#&#&&U#&&##&&,x3g5##A&##",
-    "name": "PlayList Lo.UYeVryT",
+    "description": "Description #=&q#/&k#&b#&&E#:#&b#&U&#U4/Z&&&&&#&##&s&6#-I&&&&&",
+    "name": "PlayList dgf3TjcQ5n",
     "public": true
 }
 Request method:	POST
@@ -255,8 +233,25 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description #&J&##?#&#;;cj&N###T.h&&&&###1rOgib[cV^6H&#,&G&#6j",
-    "name": "PlayList Jfn1Iy\\=hI",
+    "description": "Description R###Q2yOl###j#&#p#Q&#n7d##L&##&&y###n#&;@&eb&&hMZD",
+    "name": "",
+    "public": true
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description &Ed&##?#&o&;#&&&u#&#;##R&&v^&&SAl=#d&;<&ht&Rk#e>#&",
+    "name": "PlayList QqkrovahU9",
     "public": true
 }
 HTTP/1.1 400 Bad Request
@@ -271,7 +266,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 28 Apr 2021 08:53:36 GMT
+date: Wed, 28 Apr 2021 13:40:07 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -285,11 +280,11 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="get_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="4.961">
+  <testcase name="update_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.305">
     <system-out><![CDATA[HTTP/1.1 200 OK
 content-type: application/json; charset=utf-8
 cache-control: public, max-age=0
-etag: "MC-IjhkMmExNGNiMDlkMDYzYjVhMjM3OTljNTc5M2JiNGM5Ig=="
+etag: "MC-ImQ0NWQ4YzViZjA0MTM1ODNjMDQ2NWQzNDNlOWM0ZDZlIg=="
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -299,7 +294,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 28 Apr 2021 08:53:36 GMT
+date: Wed, 28 Apr 2021 13:40:07 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -307,7 +302,7 @@ Transfer-Encoding: chunked
 
 {
     "collaborative": false,
-    "description": "Description El#&amp;1&amp;#&amp;wuez0#&amp;?&amp;&amp;zmK&amp;&amp;&amp;&amp;&lt;&amp;bw&amp;#bx#j#&amp;3#&amp;##vk&amp;r10##",
+    "description": "Description ###&amp;&amp;#z#&amp;rX1#g1r#opI#&amp;#l&amp;R.&amp;WK&amp;Zf#B&amp;#U5&amp;&amp;[L-q&amp;#&amp;Ms",
     "external_urls": {
         "spotify": "https://open.spotify.com/playlist/49fE1KUZ5AnhMadPgoTBL1"
     },
@@ -320,7 +315,7 @@ Transfer-Encoding: chunked
     "images": [
         
     ],
-    "name": "PlayList J[^D<thvYu",
+    "name": "PlayList q\\EnsGMZmc",
     "owner": {
         "display_name": "vishnu1993",
         "external_urls": {
@@ -333,7 +328,7 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": true,
-    "snapshot_id": "NDYsMjc4MDQ4OGQxNmZkZmE5ZjRhNmRjODg5ZGQ5OTIyZTlkYjI5MjI2Mg==",
+    "snapshot_id": "NjcsYTQzZGJiMGVhZWIxZDY0ZTc3ZmI3MTMzNDM5MmJmODMyNDBmNzI2NA==",
     "tracks": {
         "href": "https://api.spotify.com/v1/playlists/49fE1KUZ5AnhMadPgoTBL1/tracks?offset=0&limit=100",
         "items": [
@@ -348,10 +343,7 @@ Transfer-Encoding: chunked
     "type": "playlist",
     "uri": "spotify:playlist:49fE1KUZ5AnhMadPgoTBL1"
 }
-]]></system-out>
-  </testcase>
-  <testcase name="update_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="4.982">
-    <system-out><![CDATA[HTTP/1.1 200 OK
+HTTP/1.1 200 OK
 cache-control: private, max-age=0
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
@@ -362,17 +354,17 @@ access-control-max-age: 604800
 Content-Length: 0
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 28 Apr 2021 08:53:36 GMT
+date: Wed, 28 Apr 2021 13:40:07 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
 ]]></system-out>
   </testcase>
-  <testcase name="create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.064">
+  <testcase name="create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.336">
     <system-out><![CDATA[HTTP/1.1 201 Created
 content-type: application/json; charset=utf-8
 cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/1lnCxrtnqefD4JuvYzn0QP
+location: https://api.spotify.com/v1/playlists/44f6EqgUdJeVjUzKdV4DVU
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -382,7 +374,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 28 Apr 2021 08:53:36 GMT
+date: Wed, 28 Apr 2021 13:40:07 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -390,20 +382,20 @@ Transfer-Encoding: chunked
 
 {
     "collaborative": false,
-    "description": "Description #&J&##?#&#;;cj&N###T.h&&&&###1rOgib[cV^6H&#,&G&#6j",
+    "description": "Description &Ed&##?#&o&;#&&&u#&#;##R&&v^&&SAl=#d&;<&ht&Rk#e>#&",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/1lnCxrtnqefD4JuvYzn0QP"
+        "spotify": "https://open.spotify.com/playlist/44f6EqgUdJeVjUzKdV4DVU"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/1lnCxrtnqefD4JuvYzn0QP",
-    "id": "1lnCxrtnqefD4JuvYzn0QP",
+    "href": "https://api.spotify.com/v1/playlists/44f6EqgUdJeVjUzKdV4DVU",
+    "id": "44f6EqgUdJeVjUzKdV4DVU",
     "images": [
         
     ],
-    "name": "PlayList Jfn1Iy\\=hI",
+    "name": "PlayList QqkrovahU9",
     "owner": {
         "display_name": "vishnu1993",
         "external_urls": {
@@ -416,9 +408,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": true,
-    "snapshot_id": "MSxkZDgyMTY4NTQ4ZjlhYTE0NmM2YzgwNzg4ZDY1ZWRhOTExNDg4OTFh",
+    "snapshot_id": "MSxjYTg2YTAwYTY3ZmRhMmY2MTkzMjBjMjZhOWVmYWEwZjU1MzZhYzQw",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/1lnCxrtnqefD4JuvYzn0QP/tracks",
+        "href": "https://api.spotify.com/v1/playlists/44f6EqgUdJeVjUzKdV4DVU/tracks",
         "items": [
             
         ],
@@ -429,8 +421,17 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:1lnCxrtnqefD4JuvYzn0QP"
+    "uri": "spotify:playlist:44f6EqgUdJeVjUzKdV4DVU"
 }
 ]]></system-out>
+  </testcase>
+  <testcase name="get_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="5.343">
+    <failure message="&#10;Expected: &quot;Your coolest updated Playlist&quot;&#10;     but: was &quot;PlayList q\\EnsGMZmc&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: "Your coolest updated Playlist"
+     but: was "PlayList q\\EnsGMZmc"
+	at com.spotify.oauth2.tests.PlayListTests.PlayListAsserts(PlayListTests.java:33)
+	at com.spotify.oauth2.tests.PlayListTests.get_playlist(PlayListTests.java:76)
+]]></failure>
   </testcase>
 </testsuite>

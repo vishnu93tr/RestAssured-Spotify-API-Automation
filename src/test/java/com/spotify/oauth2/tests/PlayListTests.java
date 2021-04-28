@@ -73,6 +73,7 @@ public class PlayListTests {
 
         Response response=get(DatabaseManager.getPlayListId());
         assertStatusCode(response.statusCode(),StatusCode.CODE_200.getCode());
+        PlayListAsserts(response.as(PlaylistRootRequest.class),playlistRootRequest);
 
     }
     /*This method updates already existing play list for a particular user*/
@@ -85,6 +86,7 @@ public class PlayListTests {
                 generateDescription(),true);
         Response response=update(playlistRootRequest,DatabaseManager.updatePlayListId());
         assertStatusCode(response.statusCode(),StatusCode.CODE_200.getCode());
+
 
     }
     /*This method doesnt create a playlist for a user due to client error*/
