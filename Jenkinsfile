@@ -5,7 +5,7 @@ pipeline {
             jdk 'jdk8'
         }
     stages {
-    stage ('Initialize') {
+    stage ('Initialize Maven and JDK') {
                 steps {
                     sh '''
                         echo "PATH = ${PATH}"
