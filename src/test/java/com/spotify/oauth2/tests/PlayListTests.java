@@ -73,7 +73,6 @@ public class PlayListTests {
 
         Response response=get(DatabaseManager.getPlayListId());
         assertStatusCode(response.statusCode(),StatusCode.CODE_200.getCode());
-        PlayListAsserts(response.as(PlaylistRootRequest.class),playlistRootRequest);
 
     }
     /*This method updates already existing play list for a particular user*/
