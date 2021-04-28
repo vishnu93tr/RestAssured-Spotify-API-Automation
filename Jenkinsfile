@@ -1,4 +1,3 @@
-def skipRemainingStages = false
 pipeline {
     agent any
     tools {
@@ -12,15 +11,9 @@ pipeline {
                         echo "PATH = ${PATH}"
                         echo "M2_HOME = ${M2_HOME}"
                     '''
-                    skipRemainingStages=true
                 }
             }
         stage('Build Project and Run tests') {
-                when {
-                        expression {
-                            !skipRemainingStages
-                        }
-                    }
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
                 sh "mvn clean test -DBASE_URI='https://api.spotify.com'"
