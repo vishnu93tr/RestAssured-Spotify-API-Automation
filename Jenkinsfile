@@ -21,11 +21,6 @@ pipeline {
             }
         }
         stage('Generate Allure Reports') {
-                    when {
-                              expression {
-                                    !skipRemainingStages
-                                }
-                            }
             steps {
             script {
                     allure([
