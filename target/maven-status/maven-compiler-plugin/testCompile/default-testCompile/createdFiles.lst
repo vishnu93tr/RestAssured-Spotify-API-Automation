@@ -1,8 +1,11 @@
 com/spotify/oauth2/pojo/Owner.class
+com/spotify/oauth2/Utils/PropertyUtils.class
 com/spotify/oauth2/api/TokenManagement/TokenManager.class
+com/spotify/oauth2/Utils/DataLoader.class
 com/spotify/oauth2/api/SpecBuilder/SpecBuilder.class
 com/spotify/oauth2/pojo/PlaylistRootRequest$PlaylistRootRequestBuilder.class
 com/spotify/oauth2/pojo/Followers.class
+com/spotify/oauth2/Utils/ConfigLoader.class
 com/spotify/oauth2/pojo/ExternalUrls.class
 com/spotify/oauth2/api/Routes/Routes.class
 com/spotify/oauth2/Utils/StatusCode.class
@@ -13,7 +16,6 @@ com/spotify/oauth2/tests/PlayListTests.class
 com/spotify/oauth2/pojo/Tracks.class
 com/spotify/oauth2/pojo/ExternalUrls__1.class
 com/spotify/oauth2/pojo/Error.class
-com/spotify/oauth2/DataBase/DatabaseManager.class
 com/spotify/oauth2/pojo/ErrorRoot.class
 com/spotify/oauth2/Utils/FakerUtils.class
 com/spotify/oauth2/pojo/PlaylistRootRequest.class

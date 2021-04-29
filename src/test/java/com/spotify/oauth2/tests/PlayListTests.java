@@ -1,6 +1,8 @@
 package com.spotify.oauth2.tests;
 
-import com.spotify.oauth2.DataBase.DatabaseManager;
+
+import com.spotify.oauth2.Utils.ConfigLoader;
+import com.spotify.oauth2.Utils.DataLoader;
 import com.spotify.oauth2.Utils.StatusCode;
 import com.spotify.oauth2.pojo.ErrorRoot;
 import com.spotify.oauth2.pojo.PlaylistRootRequest;
@@ -9,7 +11,6 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import static com.spotify.oauth2.Utils.FakerUtils.generateDescription;
@@ -43,13 +44,7 @@ public class PlayListTests {
         assertThat(response.getError().getStatus(),equalTo(status_code));
         assertThat(response.getError().getMessage(),equalTo(message));
     }
-    @Step
-    @BeforeSuite(description = "Connecting to DB")
-    @Description("This method connects Application to Mongo DB")
-    @Severity(SeverityLevel.BLOCKER)
-    public void conect_to_Mongo_DB(){
-        DatabaseManager.ConnectToMongoDB();
-    }
+
     /*This method creates a playlist for a user*/
     @Test(priority = 1,description = "create spotify playlist post API")
     @Description("This method creates a playlist for a user")
@@ -58,7 +53,7 @@ public class PlayListTests {
      PlaylistRootRequest playlistRootRequest=   getPlayListBuilder(
              generateName(),
              generateDescription(),true);
-     Response response=post(playlistRootRequest, DatabaseManager.getUser_id());
+     Response response=post(playlistRootRequest, ConfigLoader.getInstance().getUser());
     assertStatusCode(response.statusCode(), StatusCode.CODE_201.getCode());
     PlayListAsserts(response.as(PlaylistRootRequest.class),playlistRootRequest);
     }
@@ -71,7 +66,7 @@ public class PlayListTests {
         PlaylistRootRequest playlistRootRequest=   getPlayListBuilder(
                 "Your coolest updated Playlist","My coolest public playlist",true);
 
-        Response response=get(DatabaseManager.getPlayListId());
+        Response response=get(DataLoader.getInstance().getGetPlaylistId());
         assertStatusCode(response.statusCode(),StatusCode.CODE_200.getCode());
 
     }
@@ -83,7 +78,7 @@ public class PlayListTests {
         PlaylistRootRequest playlistRootRequest=   getPlayListBuilder(
                 generateName(),
                 generateDescription(),true);
-        Response response=update(playlistRootRequest,DatabaseManager.updatePlayListId());
+        Response response=update(playlistRootRequest,DataLoader.getInstance().getUpdatePlaylistId());
         assertStatusCode(response.statusCode(),StatusCode.CODE_200.getCode());
 
 
@@ -96,7 +91,7 @@ public class PlayListTests {
 
         PlaylistRootRequest playlistRootRequest=   getPlayListBuilder(
                 "",generateDescription(),true);
-        Response response=post(playlistRootRequest,DatabaseManager.getUser_id());
+        Response response=post(playlistRootRequest,ConfigLoader.getInstance().getUser());
         assertStatusCode(response.statusCode(),StatusCode.CODE_400.getCode());
         ErrorAsserts(response.as(ErrorRoot.class),StatusCode.CODE_400.getCode(),StatusCode.CODE_400.getMessage());
 
@@ -109,7 +104,7 @@ public class PlayListTests {
         PlaylistRootRequest playlistRootRequest=   getPlayListBuilder(
                 generateName(),
                 generateDescription(),true);
-        Response response=post("123",playlistRootRequest,DatabaseManager.getUser_id());
+        Response response=post("123",playlistRootRequest,ConfigLoader.getInstance().getUser());
         assertStatusCode(response.statusCode(),StatusCode.CODE_401.getCode());
         ErrorAsserts(response.as(ErrorRoot.class),StatusCode.CODE_401.getCode(),StatusCode.CODE_401.getMessage());
     }

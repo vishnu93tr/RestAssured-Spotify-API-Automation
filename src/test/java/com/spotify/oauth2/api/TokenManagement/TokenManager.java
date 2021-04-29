@@ -1,6 +1,6 @@
 package com.spotify.oauth2.api.TokenManagement;
 
-import com.spotify.oauth2.DataBase.DatabaseManager;
+import com.spotify.oauth2.Utils.ConfigLoader;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -35,13 +35,12 @@ public class TokenManager {
 
     private static Response renew_token(){
 
-        DatabaseManager.ConnectToMongoDB();
 
         Map<String,String> formParams= new HashMap<>();
-        formParams.put("grant_type", DatabaseManager.getGrantType());
-        formParams.put("refresh_token",DatabaseManager.getRefreshToken());
-        formParams.put("client_id",DatabaseManager.getclientId());
-        formParams.put("client_secret",DatabaseManager.getClientSecret());
+        formParams.put("grant_type", ConfigLoader.getInstance().getGrantType());
+        formParams.put("refresh_token",ConfigLoader.getInstance().getRefreshToken());
+        formParams.put("client_id",ConfigLoader.getInstance().getClientId());
+        formParams.put("client_secret",ConfigLoader.getInstance().getClientSecret());
 
      Response response= given().
                 baseUri("https://accounts.spotify.com").
