@@ -3,7 +3,7 @@ pipeline {
     parameters{
       choice(
       name: 'base_uri',
-      choices: ['https://api.spotify.com','https://dummyurl.com'],
+      choices: ['https://api.spotify.com'],
       description: 'Base URI According to env'
       )
     }
