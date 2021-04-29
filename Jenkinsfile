@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters{
-      choice(name: 'base_uri', choices: ['https://api.spotify.com'], description: 'Base URI According to env')
+      choice(name: 'base_uri', choices: ['https://api.spotify.com','https://dummyurl.com'], description: 'Base URI According to env')
     }
     tools {
             maven 'Maven 3.8.1'
