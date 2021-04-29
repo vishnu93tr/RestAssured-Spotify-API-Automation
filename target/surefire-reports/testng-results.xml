@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="4226" started-at="2021-04-29T13:00:40 IST" finished-at="2021-04-29T13:00:44 IST">
+  <suite name="All Test Suite" duration-ms="4179" started-at="2021-04-29T15:56:48 IST" finished-at="2021-04-29T15:56:52 IST">
     <groups>
     </groups>
-    <test name="API automation-Spotify" duration-ms="4226" started-at="2021-04-29T13:00:40 IST" finished-at="2021-04-29T13:00:44 IST">
+    <test name="API automation-Spotify" duration-ms="4179" started-at="2021-04-29T15:56:48 IST" finished-at="2021-04-29T15:56:52 IST">
       <class name="com.spotify.oauth2.tests.PlayListTests">
-        <test-method status="PASS" signature="create_playlist()[pri:1, instance:com.spotify.oauth2.tests.PlayListTests@3b8ee898]" name="create_playlist" duration-ms="4167" started-at="2021-04-29T13:00:40 IST" description="create spotify playlist post API" finished-at="2021-04-29T13:00:44 IST">
+        <test-method status="PASS" signature="create_playlist()[pri:1, instance:com.spotify.oauth2.tests.PlayListTests@56febdc]" name="create_playlist" duration-ms="4124" started-at="2021-04-29T15:56:48 IST" description="create spotify playlist post API" finished-at="2021-04-29T15:56:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_playlist -->
-        <test-method status="PASS" signature="not_create_playlist()[pri:4, instance:com.spotify.oauth2.tests.PlayListTests@3b8ee898]" name="not_create_playlist" duration-ms="3981" started-at="2021-04-29T13:00:40 IST" description="doesnt crete a playlist due to client error" finished-at="2021-04-29T13:00:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- not_create_playlist -->
-        <test-method status="PASS" signature="invalid_access_token()[pri:5, instance:com.spotify.oauth2.tests.PlayListTests@3b8ee898]" name="invalid_access_token" duration-ms="2945" started-at="2021-04-29T13:00:40 IST" description="doesnt crete a playlist due to invalid access token" finished-at="2021-04-29T13:00:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalid_access_token -->
-        <test-method status="PASS" signature="update_playlist()[pri:2, instance:com.spotify.oauth2.tests.PlayListTests@3b8ee898]" name="update_playlist" duration-ms="4076" started-at="2021-04-29T13:00:40 IST" description="Update playlist with user id and playlist Id " finished-at="2021-04-29T13:00:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- update_playlist -->
-        <test-method status="PASS" signature="get_playlist()[pri:3, instance:com.spotify.oauth2.tests.PlayListTests@3b8ee898]" name="get_playlist" duration-ms="4042" started-at="2021-04-29T13:00:40 IST" description="get existing playlist with user id and playlist Id" finished-at="2021-04-29T13:00:44 IST">
+        <test-method status="PASS" signature="get_playlist()[pri:3, instance:com.spotify.oauth2.tests.PlayListTests@56febdc]" name="get_playlist" duration-ms="4077" started-at="2021-04-29T15:56:48 IST" description="get existing playlist with user id and playlist Id" finished-at="2021-04-29T15:56:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_playlist -->
+        <test-method status="PASS" signature="not_create_playlist()[pri:4, instance:com.spotify.oauth2.tests.PlayListTests@56febdc]" name="not_create_playlist" duration-ms="4001" started-at="2021-04-29T15:56:48 IST" description="doesnt crete a playlist due to client error" finished-at="2021-04-29T15:56:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- not_create_playlist -->
+        <test-method status="PASS" signature="update_playlist()[pri:2, instance:com.spotify.oauth2.tests.PlayListTests@56febdc]" name="update_playlist" duration-ms="4117" started-at="2021-04-29T15:56:48 IST" description="Update playlist with user id and playlist Id " finished-at="2021-04-29T15:56:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_playlist -->
+        <test-method status="PASS" signature="invalid_access_token()[pri:5, instance:com.spotify.oauth2.tests.PlayListTests@56febdc]" name="invalid_access_token" duration-ms="3059" started-at="2021-04-29T15:56:48 IST" description="doesnt crete a playlist due to invalid access token" finished-at="2021-04-29T15:56:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_access_token -->
       </class> <!-- com.spotify.oauth2.tests.PlayListTests -->
     </test> <!-- API automation-Spotify -->
   </suite> <!-- All Test Suite -->
