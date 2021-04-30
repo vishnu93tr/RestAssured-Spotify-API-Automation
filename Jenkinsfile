@@ -1,6 +1,6 @@
 pipeline {
     agent{
-    label 'docker'
+    agent { dockerfile true }
     }
     parameters{
       choice(
@@ -14,6 +14,12 @@ pipeline {
             jdk 'jdk8'
         }
     stages {
+    stage('Test'){
+        steps{
+        sh 'node --version'
+        sh 'git --version'
+        }
+    }
     stage ('Initialize Maven and JDK 8') {
                 steps {
                     sh '''
@@ -22,18 +28,6 @@ pipeline {
                     '''
                 }
             }
-     stage('Docker node test') {
-                  agent {
-                    docker {
-                      label 'docker'
-                      image 'node:7-alpine'
-                    }
-                  }
-                  steps {
-                    // Steps run in node:7-alpine docker container on docker slave
-                    sh 'node --version'
-                  }
-         }
         stage('Build Project and Run tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
