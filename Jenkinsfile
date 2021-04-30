@@ -27,6 +27,11 @@ pipeline {
                 }
             }
         }
+        stage('Initialize Docker'){
+                def dockerHome=tool 'docker'
+                def mavenHome=tool 'Maven 3.8.1'
+                env.path="${dockerHome}/bin:${mavenHome}/bin:${env.PATH}"
+              }
         stage('Build Docker image'){
         steps{
             sh "docker build -t='vishnu26121993/restassured:${BUILD_NUMBER}' ."
