@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent{
+    label 'docker'
+    }
     parameters{
       choice(
       name: 'base_uri',
@@ -20,6 +22,18 @@ pipeline {
                     '''
                 }
             }
+     stage('Docker node test') {
+                  agent {
+                    docker {
+                      label 'docker'
+                      image 'node:7-alpine'
+                    }
+                  }
+                  steps {
+                    // Steps run in node:7-alpine docker container on docker slave
+                    sh 'node --version'
+                  }
+         }
         stage('Build Project and Run tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){

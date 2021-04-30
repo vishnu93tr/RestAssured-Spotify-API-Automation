@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.523" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.123" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,19 +7,18 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/test-classes:/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/classes:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/vishnu.vardhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnu.vardhan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnu.vardhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/vishnu.vardhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vishnu.vardhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnu.vardhan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnu.vardhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnu.vardhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnu.vardhan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnu.vardhan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnu.vardhan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnu.vardhan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-sync/4.0.5/mongodb-driver-sync-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/bson/4.0.5/bson-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-core/4.0.5/mongodb-driver-core-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.0/log4j-api-2.9.0.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-testng/2.13.9/allure-testng-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/vishnu.vardhan/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-test-filter/2.13.9/allure-test-filter-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.9/allure-rest-assured-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-attachments/2.13.9/allure-attachments-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/vishnu.vardhan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnu.vardhan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnu.vardhan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/test-classes:/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/classes:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/vishnu.vardhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnu.vardhan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnu.vardhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/vishnu.vardhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vishnu.vardhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnu.vardhan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnu.vardhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnu.vardhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnu.vardhan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnu.vardhan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnu.vardhan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnu.vardhan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.0/log4j-api-2.9.0.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-testng/2.13.9/allure-testng-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/vishnu.vardhan/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-test-filter/2.13.9/allure-test-filter-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.9/allure-rest-assured-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-attachments/2.13.9/allure-attachments-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/vishnu.vardhan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnu.vardhan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnu.vardhan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="suiteXmlFile" value="ist.xml"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/surefire/surefirebooter6514731644537986215.jar /Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/surefire 2021-04-29T15-56-45_957-jvmRun1 surefire7693568269089836780tmp surefire_06211267724472418386tmp"/>
-    <property name="surefire.test.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/test-classes:/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/classes:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/vishnu.vardhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnu.vardhan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnu.vardhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/vishnu.vardhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vishnu.vardhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnu.vardhan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnu.vardhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnu.vardhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnu.vardhan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnu.vardhan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnu.vardhan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnu.vardhan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-sync/4.0.5/mongodb-driver-sync-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/bson/4.0.5/bson-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver-core/4.0.5/mongodb-driver-core-4.0.5.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.0/log4j-api-2.9.0.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vishnu.vardhan/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-testng/2.13.9/allure-testng-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/vishnu.vardhan/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-test-filter/2.13.9/allure-test-filter-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.9/allure-rest-assured-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-attachments/2.13.9/allure-attachments-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/vishnu.vardhan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnu.vardhan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnu.vardhan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.java.command" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/surefire/surefirebooter3938291801848817588.jar /Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/surefire 2021-04-30T17-34-33_527-jvmRun1 surefire6113981695492362352tmp surefire_04426874321465295896tmp"/>
+    <property name="surefire.test.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/test-classes:/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/classes:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/vishnu.vardhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnu.vardhan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/vishnu.vardhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnu.vardhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/vishnu.vardhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/vishnu.vardhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vishnu.vardhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/vishnu.vardhan/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/vishnu.vardhan/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnu.vardhan/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnu.vardhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnu.vardhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnu.vardhan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnu.vardhan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnu.vardhan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnu.vardhan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnu.vardhan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnu.vardhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnu.vardhan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.0/log4j-api-2.9.0.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vishnu.vardhan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-testng/2.13.9/allure-testng-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/vishnu.vardhan/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-test-filter/2.13.9/allure-test-filter-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.9/allure-rest-assured-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/io/qameta/allure/allure-attachments/2.13.9/allure-attachments-2.13.9.jar:/Users/vishnu.vardhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/vishnu.vardhan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnu.vardhan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnu.vardhan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnu.vardhan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/vishnu.vardhan"/>
     <property name="user.language" value="en"/>
@@ -31,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/surefire/surefirebooter6514731644537986215.jar:/Users/vishnu.vardhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="surefire.real.class.path" value="/Users/vishnu.vardhan/Desktop/SpotifyAPIautomationwithNoMongo/target/surefire/surefirebooter3938291801848817588.jar:/Users/vishnu.vardhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
     <property name="BASE_URI" value="https://api.spotify.com"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="invalid_access_token" classname="com.spotify.oauth2.tests.PlayListTests" time="3.068">
+  <testcase name="invalid_access_token" classname="com.spotify.oauth2.tests.PlayListTests" time="2.807">
     <system-out><![CDATA[Renewing token
 Request method:	POST
 Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
@@ -75,8 +74,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description ###&&e4#YGE&kB&q&>&Ef&Uj&E&#Jr0fh#=p#sQhoF&f&&#g##",
-    "name": "PlayList miadXLhB;r",
+    "description": "Description u#s#oh&vf##H&#F9##&&Gpz&p#kb#&6bh&&mh#z&&&/ZaGP#&&",
+    "name": "PlayList C=:FwXR^bP",
     "public": true
 }
 HTTP/1.1 401 Unauthorized
@@ -90,7 +89,7 @@ content-type: application/json
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Thu, 29 Apr 2021 10:26:51 GMT
+date: Fri, 30 Apr 2021 12:04:38 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -103,11 +102,11 @@ Transfer-Encoding: chunked
     }
 }
 HTTP/1.1 200 OK
-date: Thu, 29 Apr 2021 10:26:51 GMT
+date: Fri, 30 Apr 2021 12:04:38 GMT
 content-type: application/json
 vary: Accept-Encoding
-set-cookie: __Host-device_id=AQDVq1rTux1nOvAm6t7Kc3zIGZ6CZjeb7b1TpAGnISJK3lWWXciVv02AGhs_zF5sKn7QIIyEgmz9R2uVeLCkNhkq5tqDxs6ioPE;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
-sp-trace-id: a322079ec0e59db8
+set-cookie: __Host-device_id=AQDLrFSiaX8H7m8rmfyXSjkFOW-2wW-zcVOTV3VOyLS6nPYPzld6NQbtxyx-XmyjsohaPJrGLnPzG1V7p9YQFwJfPy-Gfh1m8Bw;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+sp-trace-id: 87517c28c8eb28ad
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
@@ -117,14 +116,14 @@ Alt-Svc: clear
 Transfer-Encoding: chunked
 
 {
-    "access_token": "BQCPNUwWi7qnCgS5ZkoAyqBpYhbS1rVuAoblg6BlBj-XJvO0nwIPozQLYbzUhZK9cx30egooBcjQWCoF_YsvKx0-1nwSz0ONM3vvDuXRIFnHR3qiOuPCsEEMRB6AzRif_4AIEJ2dj_a3Huy_7AqsVy1vea7SHBQUBHy0Azu80XeAfl_d7jN08R6WzrXw49LsHdhM7siXK7z3TF7jfAhWjv38YtQLFapL9Cyr3tJOHz2v",
+    "access_token": "BQAN9MpsuYhHJHNz2FybDeuC3RD14QCix0g6PezXmKvzIJJ3HIMLZ7mh_i2DNOAquk_gghWmk-0-rZxFV2_m-CpQg25Gj9nCuFHycvM_O2-6HAN56sTbRQAIwFg0X8JYq-FIW3akZHXJht4o8zc67EnDIvINhFr77SNWP9kmPRHqhAXyLlQvL6uE1__yK-n42XaLh-NBJSlb9N_H9Zd9nhq1mkbu3f3hzuzwQYoNzvfd",
     "token_type": "Bearer",
     "expires_in": 3600,
     "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="not_create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="4.005">
+  <testcase name="not_create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="3.716">
     <system-out><![CDATA[token is good to go
 token is good to go
 token is good to go
@@ -153,8 +152,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description &Wh##4#uPoJ#_&##&TiC&&D##j4&IOp#&M<7##c&8&##9##b##",
-    "name": "PlayList x<kC@wQ_aa",
+    "description": "Description =&f###q#[##HT#Nt&1#&.0p#Fy2###cV#[#kz#b.i&y&&e5w##",
+    "name": "PlayList l4Gi]5idN3",
     "public": true
 }
 Request method:	POST
@@ -170,25 +169,25 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description &o##&##&\\&&J#Vf#0&Yxy#b5&]:&###@9Yi4#M##&#@#&j&#]&",
-    "name": "PlayList t[/Yf3I5ye",
-    "public": true
-}
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description #&_&k&&&i&#Ef&aWh4KW##&&&m@&#&5#d1&#c&&##&c3#[@42.",
+    "description": "Description &##N#&pE&&&#6M#v##9NX3##ta#&0&&B&&&osn##N#gk/&&f##",
     "name": "",
+    "public": true
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/e41y8ev2wvl4jlfee11ohbet8/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description 5###W#Oc&&;#p&e&&&#Dy&x&#&#cQ&i#d&R#8#Wry#&Q#&rbFL",
+    "name": "PlayList Ag^0@i5g^y",
     "public": true
 }
 HTTP/1.1 400 Bad Request
@@ -203,7 +202,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Thu, 29 Apr 2021 10:26:52 GMT
+date: Fri, 30 Apr 2021 12:04:39 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -217,11 +216,11 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="get_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="4.077">
+  <testcase name="get_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="3.735">
     <system-out><![CDATA[HTTP/1.1 200 OK
 content-type: application/json; charset=utf-8
 cache-control: public, max-age=0
-etag: "MC-ImQwNGQ1OWUyNGQxNjg0YmRlNzM5ZGQ0ZDY3NWFiYzk0Ig=="
+etag: "MC-IjA0YzQ4MTIyYjEzYmE1OTk3YTVhZTczZGE0MjgzZGFlIg=="
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -231,7 +230,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Thu, 29 Apr 2021 10:26:52 GMT
+date: Fri, 30 Apr 2021 12:04:39 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -239,7 +238,7 @@ Transfer-Encoding: chunked
 
 {
     "collaborative": false,
-    "description": "Description uk##&amp;VPX#ftF#h&amp;A_kJ9#j&amp;j&amp;q9&amp;F&amp;&lt;wmDt#&amp;&amp;&amp;_p##&amp;^#&amp;1&amp;K",
+    "description": "Description #ni3=#:v:#FJR&amp;N#&amp;&amp;#&amp;0F&amp;^c&amp;m#&amp;v0Dy#fjz##,&amp;#z&amp;M&amp;wu&amp;8",
     "external_urls": {
         "spotify": "https://open.spotify.com/playlist/49fE1KUZ5AnhMadPgoTBL1"
     },
@@ -252,7 +251,7 @@ Transfer-Encoding: chunked
     "images": [
         
     ],
-    "name": "PlayList 9xpkv8Mwxc",
+    "name": "PlayList rhYCQs0Z[@",
     "owner": {
         "display_name": "vishnu1993",
         "external_urls": {
@@ -265,7 +264,7 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": true,
-    "snapshot_id": "MTIxLGRiMTQ3ZTVlOGZjNWFkMGY1YTI2MmZlNjY0MzYyY2ExNTlhNjNmNjQ=",
+    "snapshot_id": "MTY1LDRlYWE1NWNjM2FhMzgxZGVlY2I5M2FiZTFkNTdmMTI4YmE4YTUwNjk=",
     "tracks": {
         "href": "https://api.spotify.com/v1/playlists/49fE1KUZ5AnhMadPgoTBL1/tracks?offset=0&limit=100",
         "items": [
@@ -282,11 +281,29 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="update_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="4.119">
+  <testcase name="update_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="3.77">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 30 Apr 2021 12:04:39 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+]]></system-out>
+  </testcase>
+  <testcase name="create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="3.803">
     <system-out><![CDATA[HTTP/1.1 201 Created
 content-type: application/json; charset=utf-8
 cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/525XfTAMzglH0XvEJM1hWL
+location: https://api.spotify.com/v1/playlists/43pQhaw9wZpsLgB408AxWA
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -296,7 +313,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Thu, 29 Apr 2021 10:26:52 GMT
+date: Fri, 30 Apr 2021 12:04:39 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -304,20 +321,20 @@ Transfer-Encoding: chunked
 
 {
     "collaborative": false,
-    "description": "Description &o##&##&\\&&J#Vf#0&Yxy#b5&]:&###@9Yi4#M##&#@#&j&#]&",
+    "description": "Description 5###W#Oc&&;#p&e&&&#Dy&x&#&#cQ&i#d&R#8#Wry#&Q#&rbFL",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/525XfTAMzglH0XvEJM1hWL"
+        "spotify": "https://open.spotify.com/playlist/43pQhaw9wZpsLgB408AxWA"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/525XfTAMzglH0XvEJM1hWL",
-    "id": "525XfTAMzglH0XvEJM1hWL",
+    "href": "https://api.spotify.com/v1/playlists/43pQhaw9wZpsLgB408AxWA",
+    "id": "43pQhaw9wZpsLgB408AxWA",
     "images": [
         
     ],
-    "name": "PlayList t[/Yf3I5ye",
+    "name": "PlayList Ag^0@i5g^y",
     "owner": {
         "display_name": "vishnu1993",
         "external_urls": {
@@ -330,9 +347,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": true,
-    "snapshot_id": "MSxhZDUxMzIwMGI5MmE2YTJhNjQxYzM2MTgyODI3Zjk1OTVjZjc3NTAy",
+    "snapshot_id": "MSw2ZmY0ZjIzYjY2NWJjMzczMGMxNTk3YWE2OGVhODM3NGUxMWU2ZjI4",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/525XfTAMzglH0XvEJM1hWL/tracks",
+        "href": "https://api.spotify.com/v1/playlists/43pQhaw9wZpsLgB408AxWA/tracks",
         "items": [
             
         ],
@@ -343,24 +360,8 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:525XfTAMzglH0XvEJM1hWL"
+    "uri": "spotify:playlist:43pQhaw9wZpsLgB408AxWA"
 }
-HTTP/1.1 200 OK
-cache-control: private, max-age=0
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-Content-Length: 0
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Thu, 29 Apr 2021 10:26:52 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: clear
 ]]></system-out>
   </testcase>
-  <testcase name="create_playlist" classname="com.spotify.oauth2.tests.PlayListTests" time="4.12"/>
 </testsuite>
