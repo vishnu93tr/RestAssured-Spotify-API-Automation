@@ -29,11 +29,11 @@ pipeline {
         }
         stage('Install Docker'){
                 steps{
-               sh "sudo yum-config-manager --enable rhui-REGION-rhel-server-extras"
+               sh "yum-config-manager --enable rhui-REGION-rhel-server-extras"
                sh "yum -y install docker-ce"
-               sh "sudo systemctl start docker"
-               sh "sudo docker run hello-world"
-               sh "sudo systemctl enable docker.service"
+               sh "systemctl start docker"
+               sh "docker run hello-world"
+               sh "systemctl enable docker.service"
                }
               }
         stage('Build Docker image'){
