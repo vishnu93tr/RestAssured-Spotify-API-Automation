@@ -1,0 +1,6 @@
+version: '3'
+services:
+  RestAssured:
+    image: vishnu26121993/restassured
+    environment:
+      - BASE_URI= 'https://api.spotify.com'

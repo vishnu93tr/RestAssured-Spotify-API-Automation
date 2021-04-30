@@ -27,6 +27,21 @@ pipeline {
                 }
             }
         }
+        stage('Build Docker image'){
+        steps{
+            sh "docker build -t='vishnu26121993/restassured:${BUILD_NUMBER}' ."
+            sh "docker build -t='vishnu26121993/restassured' ."
+         }
+        }
+        stage('Push image to docker hub'){
+        steps{
+           withCredentials([usernamePassword(credentialsId: 'dockerhub_credentials', passwordVariable: 'pass', usernameVariable: 'user')]){
+            sh "docker login --username=${user} --password=${pass}"
+            sh "docker push vishnu26121993/restassured:${BUILD_NUMBER}"
+            sh "docker push vishnu26121993/restassured:latest"
+           }
+        }
+        }
         stage('Generate Allure Reports') {
             steps {
             script {
