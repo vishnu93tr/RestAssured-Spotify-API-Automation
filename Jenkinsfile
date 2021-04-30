@@ -27,15 +27,6 @@ pipeline {
                 }
             }
         }
-        stage('Install Docker'){
-                steps{
-               sh "yum-config-manager --enable rhui-REGION-rhel-server-extras"
-               sh "yum -y install docker-ce"
-               sh "systemctl start docker"
-               sh "docker run hello-world"
-               sh "systemctl enable docker.service"
-               }
-              }
         stage('Build Docker image'){
         steps{
             sh "docker build -t='vishnu26121993/restassured:${BUILD_NUMBER}' ."
