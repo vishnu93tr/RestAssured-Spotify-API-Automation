@@ -27,10 +27,14 @@ pipeline {
                 }
             }
         }
-        stage('Initialize Docker'){
-                def dockerHome=tool 'docker'
-                def mavenHome=tool 'Maven 3.8.1'
-                env.path="${dockerHome}/bin:${mavenHome}/bin:${env.PATH}"
+        stage('Install Docker'){
+                steps{
+               sh "sudo yum-config-manager --enable rhui-REGION-rhel-server-extras"
+               sh "yum -y install docker-ce"
+               sh "sudo systemctl start docker"
+               sh "sudo docker run hello-world"
+               sh "sudo systemctl enable docker.service"
+               }
               }
         stage('Build Docker image'){
         steps{
